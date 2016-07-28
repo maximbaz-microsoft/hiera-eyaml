@@ -1,6 +1,11 @@
 Change log for hiera-eyaml
 ==========================
 
+2.1.1
+-----
+
+ - (#201) Modify edit command to not recrypt unchanged values (@dianac10)
+
 2.1.0
 -----
 
