@@ -1,6 +1,11 @@
 Change log for hiera-eyaml
 ==========================
 
+2.1.2
+-----
+
+ - (#211) Modify recrypt command to allow recrypting file with different encryption method (@dianac10)
+
 2.1.1
 -----
 
