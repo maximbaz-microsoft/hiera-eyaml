@@ -57,11 +57,13 @@ Setup
 
 ### Installing hiera-eyaml
 
-    $ gem install hiera-eyaml
+**Note: This is a fork of [hiera-eyaml](https://github.com/TomPoulton/hiera-eyaml) gem.**
+
+    $ gem install mse-hiera-eyaml
 
 ### Installing hiera-eyaml for the new [puppet-server](https://github.com/puppetlabs/puppet-server)
 
-    $ puppetserver gem install hiera-eyaml
+    $ puppetserver gem install mse-hiera-eyaml
 
 ### Generate keys
 
@@ -308,7 +310,7 @@ Troubleshooting
 
 then run your install
 
-    $ gem install hiera-eyaml
+    $ gem install mse-hiera-eyaml
 
 
 Issues
