@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'hiera/backend/eyaml'
 
 Gem::Specification.new do |gem|
-  gem.name          = "hiera-eyaml"
+  gem.name          = "mse-hiera-eyaml"
   gem.version       = Hiera::Backend::Eyaml::VERSION
   gem.description   = "Hiera backend for decrypting encrypted yaml properties"
   gem.summary       = "OpenSSL Encryption backend for Hiera"
   gem.author        = "Tom Poulton"
   gem.license       = "MIT"
 
-  gem.homepage      = "http://github.com/TomPoulton/hiera-eyaml"
+  gem.homepage      = "https://github.com/maximbaz-microsoft/hiera-eyaml.git"
   gem.files         = `git ls-files`.split($/).reject { |file| file =~ /^features.*$/ }
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
